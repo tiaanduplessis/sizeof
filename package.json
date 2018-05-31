@@ -1,0 +1,31 @@
+{
+  "name": "@tiaanduplessis/sizeof",
+  "version": "1.0.0",
+  "description": "Get approximate size of literal or variable in bytes",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/sizeof",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "standard": "^11.0.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "sizeof",
+    "memory",
+    "memory-size"
+  ],
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
